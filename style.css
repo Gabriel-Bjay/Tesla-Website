@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 6px 16px 24px 10px;
+}
+
+.banner-wrap{
+    background-image: url(./assets/tesla1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.model-s-banner{
+    background-image: url(./assets/model\ s.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding: 0px 32px;
+}
+
+.nav-title{
+    padding: 5px 15px;
+}
+
+.nav-title:hover{
+    background-color:rgba(128, 128, 128, 0.479) ;
+    cursor: pointer;
+    border: #00000000;
+    scroll-behavior: smooth ;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    nav{
+        background-color: red;
+        color: white;
+        font-size: 5px;
+        display: grid;
+        justify-content: space-between;
+        align-content: center;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    
+}
+
+.button{
+    border: none;
+    background: none;
+    width: 260px;
+    border-radius: 20px;
+    height: 40px;
+    padding: 7px 27px ;
+}
+.logo{
+    height: 24px;
+    width: 120px;
+}
+
+main{
+    text-align: center;
+    height: calc(100vh- 56px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.title-section{
+    margin-top: calc(164px- 56px) ;
+    margin-bottom: 510px;
+}
+
+.button1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.884);
+    box-sizing: border-box;
+    border: 300px;
+    width: 200px;
+    height: 1cm;
+    font-weight: 500;
+    border-radius: 2px;
+}
+
+.button1:hover{
+    cursor: pointer;
+}
+
+.button2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(24, 23, 23);
+    box-sizing: border-box;
+    border: 300px;
+    width: 200px;
+    height: 1cm;
+    font-weight: 500;
+    border-radius: 2px;
+}
+
+.button2:hover{
+    cursor: pointer;
+}
