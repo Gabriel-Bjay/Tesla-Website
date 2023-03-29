@@ -7,7 +7,7 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -31,6 +31,12 @@ p{
     background-size: cover;
 }
 
+a{
+    color: black;
+    text-decoration: none;
+}
+ 
+/* These are the different model stylings */
 .model-s-banner{
     background-image: url(./assets/model\ s.jpeg);
     background-repeat: no-repeat;
@@ -40,6 +46,53 @@ p{
     background-size: cover;
 
 }
+
+.model-3-banner{
+    background-image: url(./assets/Model-3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.model-x-banner{
+    background-image: url(./assets/Model-X.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.model-y-banner{
+    background-image: url(./assets/Model-Y.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.solar-roof-banner{
+    background-image: url(./assets/Solar-Roof.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.solar-panels-banner{
+    background-image: url(./assets/solar\ panels.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+    /* Model styling ends here */
+
 
 nav{
     display: flex;
@@ -51,6 +104,7 @@ nav{
 
 .nav-title{
     padding: 5px 15px;
+    ;
 }
 
 .nav-title:hover{
@@ -104,13 +158,13 @@ main{
 .button1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    background-color: rgba(0, 0, 0, 0.884);
+    background-color: rgba(0, 0, 0, 0.889);
     box-sizing: border-box;
     border: 300px;
-    width: 200px;
-    height: 1cm;
+    width: 10cm;
+    height: 1.5cm;
     font-weight: 500;
-    border-radius: 2px;
+    border-radius: 15px;
 }
 
 .button1:hover{
@@ -121,13 +175,27 @@ main{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(24, 23, 23);
     box-sizing: border-box;
+    border-radius: 20px;
     border: 300px;
-    width: 200px;
-    height: 1cm;
+    width: 7cm;
+    height: 1.5cm;
     font-weight: 500;
     border-radius: 2px;
 }
 
 .button2:hover{
     cursor: pointer;
+}
+
+/* Model specifications */
+.model-s-specifications{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+.sub-texts{
+    font-family: 'Roboto', sans-serif ;
+    color: aliceblue;
+    font-weight: 700;
+    height: 20px;
 }
